@@ -1,4 +1,4 @@
-# Telegram Gasoline Bot ⛽
+# Telegram Petrol Bot ⛽
 
 Бот для Telegram, який щодня надсилає середні ціни на пальне (ДП, А-95, ГАЗ, AdBlue тощо) у ваш канал або чат.
 
@@ -21,8 +21,8 @@
 1. Клонуйте репозиторій:
 
 ```bash
-git clone https://github.com/SerhiiRomanenko/telegram-gasoline-bot.git
-cd telegram-gasoline-bot
+git clone https://github.com/SerhiiRomanenko/telegram-petrol-bot.git
+cd telegram-petrol-bot
 
 ```
 
