@@ -1,17 +1,18 @@
-# Telegram Currency Bot 💱
+# Telegram Gasoline Bot ⛽
 
-Бот для Telegram, який щодня надсилає курси валют (USD, EUR) та криптовалют (Bitcoin, Ethereum) у ваш канал або чат.
+Бот для Telegram, який щодня надсилає середні ціни на пальне (ДП, А-95, ГАЗ, AdBlue тощо) у ваш канал або чат.
 
 ---
 
 ## 🚀 Особливості
 
-- Відправка курсів ПриватБанку (купівля / продаж)
-- Відправка курсів криптовалют через CoinGecko
-- Надсилає повідомлення о 08:00 за київським часом
-- Підтримка автоматичного відправлення, навіть якщо Render Free Web Service спав
-- HTML-форматування та посилання на Telegram-канали
-- Простий Express-сервер для пінгу (UptimeRobot)
+- Відправка середніх цін на пальне з Telegram-каналу `moneymaker_od`
+- Пропускає А-92, показує тільки актуальні види пального
+- Рандомна відправка однієї з двох картинок до повідомлення
+- HTML-форматування повідомлень із кнопками / посиланнями
+- Підтримка fallback: якщо нових даних немає, надсилає останні доступні
+- Надсилає повідомлення о заданому часу (за київським часом)
+- Простий Express-сервер для пінгу (UptimeRobot), щоб Render Free не “засинав”
 
 ---
 
@@ -20,8 +21,8 @@
 1. Клонуйте репозиторій:
 
 ```bash
-git clone https://github.com/SerhiiRomanenko/telegram-currency-bot.git
-cd telegram-currency-bot
+git clone https://github.com/SerhiiRomanenko/telegram-gasoline-bot.git
+cd telegram-gasoline-bot
 
 ```
 
