@@ -93,7 +93,8 @@ function buildFuelMessage(fuelLines, isFallback = false) {
   return (
     `🛢️ <b>СЕРЕДНІ ЦІНИ НА ПАЛЬНЕ</b>\n\n` +
     fuelLines.join("\n") +
-    (isFallback ? `\n\n⚠️ <i>Останні доступні дані</i>` : "")
+    (isFallback ? `\n\n⚠️ <i>Останні доступні дані</i>` : "") +
+    `\n\n<a href="https://t.me/huyova_bila_tserkva">✅ Хуйова Біла Церква</a> | <a href="https://t.me/xy_dmin">Прислати новину</a>`
   );
 }
 
